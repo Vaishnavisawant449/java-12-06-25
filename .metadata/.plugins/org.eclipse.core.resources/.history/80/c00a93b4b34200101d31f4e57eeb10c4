@@ -1,0 +1,14 @@
+package tyco;
+class Parent{
+	void show() {
+		System.out.println("Parent Class");
+	}
+}
+public class Inheritence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

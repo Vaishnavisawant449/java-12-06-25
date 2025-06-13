@@ -1,0 +1,17 @@
+package tyco;
+
+public class this_key {
+	
+	int no;
+	
+	public this_key(int no) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+	
+		
+
+	}
+
+}

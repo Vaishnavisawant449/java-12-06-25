@@ -1,0 +1,23 @@
+package tyco;
+
+public class this_key {
+	
+	int no;
+	
+	public this_key(int no) {
+			this.no=no;
+		
+	}
+	
+	void show() {
+		System.out.println(no);
+	}
+
+	public static void main(String[] args) {
+		this_key t=new this_key(90);
+		t.show();
+		
+
+	}
+
+}

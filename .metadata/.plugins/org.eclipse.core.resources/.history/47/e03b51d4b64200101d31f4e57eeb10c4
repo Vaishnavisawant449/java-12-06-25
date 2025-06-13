@@ -1,0 +1,31 @@
+package tyco;
+class parent{
+	int i=60;
+	void msg() {
+		System.out.println(i);
+	}
+	void show() {
+		System.out.println("Parent Class");
+		
+	}
+}
+public class inheritence1 extends parent{
+	int i=10;
+	void msg() {
+		System.out.println(super.i);
+		System.out.println(i);
+	}
+	void show() {
+		super.show();
+		System.out.println("Child Class");
+	}
+	public static void main(String[] args) {
+		inheritence1 i=new inheritence1();	
+		i.show();
+		i.msg();
+	
+
+	}
+
+
+}

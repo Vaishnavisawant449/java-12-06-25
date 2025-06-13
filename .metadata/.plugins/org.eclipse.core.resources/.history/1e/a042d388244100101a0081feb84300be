@@ -1,0 +1,19 @@
+package tyco;
+
+public class studinfo {
+	String Name="vaishnavi";
+	int Roll_no;
+	String Address="pal gargoti";
+
+	public static void main(String[] args) {
+		
+		studinfo s1=new studinfo();
+		
+		System.out.println("enter Rollno="+s1.rollno);
+		System.out.println("enter Name="+s1.name);
+		System.out.println("enter Address="+s1.address);
+		
+
+	}
+
+}

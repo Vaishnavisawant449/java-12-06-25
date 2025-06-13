@@ -1,0 +1,46 @@
+package tyco;
+class parent{
+	int i=40;
+	void compute() {
+		System.out.println(d);
+		
+	}
+   void display(){
+	System.out.println("parent class");
+   }
+   }
+
+public class multilevel extends parent {
+	int i=30;
+	void compute() {
+		System.out.println(super.i);
+		System.out.println(i);
+	}
+	void display() {
+		super.display();
+		System.out.println("child class");
+	
+	}
+}
+	public class multilevel extends parent{
+		int i=40;
+		void display() {
+			System.out.println(super.i);
+			System.out.println(i);
+		}
+	void show() {
+		super.display();
+		System.out.println("derived class");
+	}
+	}
+	public static void main(String[] args) {
+		Inheritence i=new Inheritence();
+		i.compute();
+		i.display();
+		i.show();
+	}
+}
+
+	}
+
+}

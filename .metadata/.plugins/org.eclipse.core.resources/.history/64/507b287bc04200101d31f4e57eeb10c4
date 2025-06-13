@@ -1,0 +1,54 @@
+package tyco;
+
+public class MethodOverloading1 {
+	void show(int a)
+	{
+		System.out.println(a);
+	}
+	
+
+	void show(int a,int b) 
+	{
+		System.out.println(a+" "+b);
+	}
+	void show(int a,String b) 
+	{
+		System.out.println(a+" "+b);
+	}
+
+	public static void main(String[] args) {
+		MethodOverloading1 m=new MethodOverloading1();
+		m.show(20);
+		m.show(12, 60);
+		m.show(14, "VVIT");
+
+
+	}
+
+}
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

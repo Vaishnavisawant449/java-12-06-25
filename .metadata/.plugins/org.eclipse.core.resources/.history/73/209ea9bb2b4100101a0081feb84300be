@@ -1,0 +1,17 @@
+package tyco;
+
+public class constructor_demo {
+public constructor_demo() {
+	System.out.println("default constructor");
+
+}
+	constructor_demo(int b){
+	System.out.println("b="+b);
+	}
+		
+	public static void main(String[] args) {
+		constructor_demo c1=new constructor_demo(71);
+		
+	}
+
+}

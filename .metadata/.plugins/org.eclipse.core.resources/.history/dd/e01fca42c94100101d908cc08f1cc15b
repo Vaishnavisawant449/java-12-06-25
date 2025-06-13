@@ -1,0 +1,26 @@
+package tyco;
+
+public class constructor_demo {
+	int num;
+ constructor_demo() {
+	System.out.println("default constructor");
+
+}
+	public constructor_demo(int a){
+		num=a;
+		
+	System.out.printl("a="+a);
+	}
+   public constructor_demo(constructor_demo d){
+	   this(d.num);   
+   }
+  
+		
+	public static void main(String[] args) {
+		constructor_demo c1=new constructor_demo(71);
+		constructor_demo c2=new constructor_demo();
+		constructor_demo c3=new constructor_demo(c1);
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package tyco;
+
+public class demo {
+
+	public static void main(String[] args) {
+		int a=100,b=3,r=2,s;
+		s=a*b*r/100;
+		System.out.println("simplentries:"+c);
+
+	}
+
+}

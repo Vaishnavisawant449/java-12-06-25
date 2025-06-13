@@ -1,0 +1,18 @@
+package tyco;
+
+public class Wrapper_Class {
+
+	public static void main(String[] args) {
+
+		int a=90;
+		
+		Integer j=Integer.valueOf(a); //Autoboxing
+		
+		Integer l=new Integer(90);
+		int b=l.intValue();
+		
+		
+
+	}
+
+}

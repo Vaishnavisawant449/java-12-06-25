@@ -1,0 +1,9 @@
+package tyco;
+
+public class this1_key {
+
+ int no;
+ public this1_key(int no) {
+	 //this();
+	 this.no=no;
+ }

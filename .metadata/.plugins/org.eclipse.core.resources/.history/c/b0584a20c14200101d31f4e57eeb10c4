@@ -1,0 +1,21 @@
+package tyco;
+
+class Employee{
+	void msg() {
+		System.out.println("Parent Class Data");
+	}
+	
+}
+public class MethodOverriding extends Employee {
+	void msg() {
+		System.out.println("Child Class Data");
+
+	}
+	
+	public static void main(String[] args) {
+		HR mm=new HR();
+		mm.msg();
+
+	}
+
+}

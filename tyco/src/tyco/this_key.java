@@ -1,0 +1,35 @@
+package tyco;
+
+public class this_key {
+	
+	int no;
+	
+	public this_key(int no) {
+		//this();
+			this.no=no;
+		
+	}
+	
+	public this_key() {
+		this(90);
+		System.out.println("Default Constructor...");
+	}
+	
+	void m() {
+		System.out.println("Calling m...");
+	}
+	
+	void show() {
+		this.m();
+		System.out.println(no);
+	}
+
+	public static void main(String[] args) {
+		this_key t=new this_key();
+		
+		t.show();
+		
+
+	}
+
+}

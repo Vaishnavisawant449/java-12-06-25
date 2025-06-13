@@ -1,0 +1,38 @@
+
+package tyco;
+
+public class encapsulation {
+	private String Acc_name;
+	public long Acc_no;
+	
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public long getAcc_no() {
+		return Acc_no;
+	}
+
+
+	public void setAcc_no(long acc_no) {
+		Acc_no = acc_no;
+	}
+
+
+	public static void main(String[] args) {
+		encapsulation e=new encapsulation();;
+		e.setAcc_name("vaishnai");
+		e.setAcc_no(743578865);
+		System.out.println(get Acc_name());
+		System.out.println(get Acc_no());
+
+	}
+
+}

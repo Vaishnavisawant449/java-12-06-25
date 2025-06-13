@@ -1,0 +1,15 @@
+package tyco;
+class One{
+	
+}
+class Two{
+	
+}
+public class Multiple extends One,Two{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

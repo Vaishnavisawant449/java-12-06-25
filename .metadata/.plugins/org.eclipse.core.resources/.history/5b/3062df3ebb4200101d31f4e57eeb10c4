@@ -1,0 +1,13 @@
+package tyco;
+class First{
+	
+}
+class Second extends First{
+	
+}
+public class multilevel extends Second {
+	public static void main(String args[]) {
+		
+	}
+
+}

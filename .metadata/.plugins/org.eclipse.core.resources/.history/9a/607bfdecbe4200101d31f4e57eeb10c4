@@ -1,0 +1,29 @@
+package tyco;
+
+public class MethodOverloading {
+	
+	void show(int a) 
+	{
+		System.out.println(a);
+	}
+	
+
+	void show(int a,int b) 
+	{
+		System.out.println(a+""+b);
+	}
+	void show(int a,String b) 
+	{
+		System.out.println(a+""+b);
+	}
+
+	public static void main(String[] args) {
+		MethodOverloading m=new MethodOverloading();
+		m.show(10);
+		m.show(12, 10);
+		m.show(11, "Hello");
+
+
+	}
+
+}
